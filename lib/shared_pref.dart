@@ -33,7 +33,7 @@ class _SharedPreferencesScreenState extends State<SharedPreferencesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shared Preferences'),
+        title: const Text('Shared Preferences'),
         centerTitle: true,
       ),
       body: FutureBuilder(
